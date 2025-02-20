@@ -8,6 +8,8 @@ namespace Ecommerce.Core.Entities
         [EnumMember(Value= "Pending")]
         Pending,   
         [EnumMember(Value= "Approved")]
-        Approved
+        Approved,
+        [EnumMember(Value= "Cancelled")]
+        Cancelled
     }
 }

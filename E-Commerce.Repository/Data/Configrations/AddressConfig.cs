@@ -14,7 +14,10 @@ namespace E_Commerce.Repository.Data.Configrations
     {
         public void Configure(EntityTypeBuilder<Address> builder)
         {
-            builder.HasOne(u => u.AppUser).WithMany().HasForeignKey(a => a.AppUserId);
+            builder.HasOne(a => a.AppUser)
+    .WithMany(u => u.Addresses)
+    .HasForeignKey(a => a.AppUserId)
+    .OnDelete(DeleteBehavior.Cascade);
 
         }
     }

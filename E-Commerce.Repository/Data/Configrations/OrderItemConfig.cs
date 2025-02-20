@@ -18,13 +18,15 @@ namespace E_Commerce.Repository.Data.Configrations
             builder.Property(p => p.Id).ValueGeneratedOnAdd();
             builder.Property(p => p.Quantity).IsRequired();
             builder.Property(p => p.Price).IsRequired().HasColumnType("decimal(18,2)");
-            builder.Property(p => p.Name).IsRequired().HasMaxLength(100);
+            builder.Property(p => p.ProductName).IsRequired().HasMaxLength(100);
             builder.Property(p => p.Color).IsRequired().HasMaxLength(1000);
             builder.Property(p => p.Discount).IsRequired(false).HasColumnType("real");
 
+            builder.HasOne(o => o.Order)
+                .WithMany(o => o.OrderItems)
+                .HasForeignKey(d => d.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasOne(o => o.Order).WithMany().HasForeignKey(d => d.OrderId);
-            builder.HasOne(o => o.Product).WithMany().HasForeignKey(d => d.ProductId);
 
 
         }

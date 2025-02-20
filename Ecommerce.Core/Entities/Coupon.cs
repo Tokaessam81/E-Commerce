@@ -1,19 +1,23 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-//namespace Ecommerce.Core.Entities
-//{
-//    public class Coupon
-//    {
-//        // (Coupon Id, Coupon Code, Coupon Type, Coupon Expire Date, Number of users, Discount )
-//        public int Id { get; set; }
-//        public string CouponCode { get; set; }
-//        public string CouponType { get; set; }
-//        public DateTime CouponExpireDate { get; set; }
-//       // public int NumberOfUsers { get; set; }
-//        public decimal Discount { get; set; }
-//    }
-//}
+namespace Ecommerce.Core.Entities
+{
+    public class Coupon:BaseEntity
+    {
+        public int Id { get; set; }
+        public string Code { get; set; } // كود الكوبون
+        public string Type { get; set; } // نوع الكوبون (مثلاً: "شحن مجاني"، "خصم نسبة")
+        public decimal DiscountAmount { get; set; } // قيمة الخصم الثابتة
+        public double DiscountPercentage { get; set; } // نسبة الخصم
+        public int MaxUsage { get; set; } // عدد المستخدمين المسموح به
+        public int UsedCount { get; set; } = 0; // عدد المستخدمين الحالي
+        public DateTime ExpiryDate { get; set; } // تاريخ انتهاء الصلاحية
+        public bool IsActive { get; set; } = true; // هل الكوبون مفعل
+
+    }
+
+}

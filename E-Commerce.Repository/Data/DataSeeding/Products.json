@@ -1,0 +1,357 @@
+ [
+  {
+    "Name": "iPhone 14",
+    "Color": "pink",
+    "Price": 999,
+    "Discount": 10,
+    "Quantity": 50,
+    "Rating": 4.5,
+    "Status": "Available",
+    "CategoryId": 1,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058549/product-1727457547189N0-_b7izc3.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058549/product-1727457547189N0-_b7izc3.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058549/product-1727457547189N0-_b7izc3.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058549/product-1727457547189N0-_b7izc3.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058549/product-1727457547189N0-_b7izc3.webp" }
+
+    ]
+  },
+  {
+    "Name": "Samsung Galaxy S23",
+    "Color": "Blue",
+    "Price": 899,
+    "Discount": 5,
+    "Quantity": 80,
+    "Rating": 4.7,
+    "Status": "Available",
+    "CategoryId": 1,
+    "Images": [
+
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058456/Product-1725471232081-cover_r4hdpc.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058453/Product-1725471117463N1_rcmjlo.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058453/Product-1725470826151N1_yh5big.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058453/Product-1725471053013N1_uq7de5.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058453/Product-1725471117223-cover_qfj5dv.png" }
+    ]
+  },
+  {
+    "Name": "HP Laptop",
+    "Color": "Silver",
+    "Price": 1099,
+    "Discount": 15,
+    "Quantity": 50,
+    "Rating": 4.8,
+    "Status": "Available",
+    "CategoryId": 2,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+    ]
+  },
+  {
+    "Name": "Nike Running Shoes",
+    "Color": "Red",
+    "Price": 120,
+    "Discount": 20,
+    "Quantity": 50,
+    "Rating": 4.6,
+    "Status": "Available",
+    "CategoryId": 3,
+    "Images": [
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" }
+    ]
+  },
+  {
+    "Name": "Xbox Series X",
+    "Color": "Black",
+    "Price": 500,
+    "Discount": 10,
+    "Quantity": 100,
+    "Rating": 4.9,
+    "Status": "Available",
+    "CategoryId": 4,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+    ]
+  },
+  {
+
+    "Name": "Sony PlayStation 5",
+    "Color": "White",
+    "Price": 499,
+    "Discount": 5,
+    "Quantity": 60,
+    "Rating": 4.8,
+    "Status": "Available",
+    "CategoryId": 4,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+
+    ]
+  },
+  {
+    "Name": "Dell XPS 15",
+    "Color": "Silver",
+    "Price": 1299,
+    "Discount": 10,
+    "Quantity": 50,
+    "Rating": 4.7,
+    "Status": "Available",
+    "CategoryId": 2,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+    ]
+  },
+  {
+    "Name": "Apple Watch Series 8",
+    "Color": "Midnight",
+    "Price": 399,
+    "Discount": 10,
+    "Quantity": 50,
+    "Rating": 4.6,
+    "Status": "Available",
+    "CategoryId": 5,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+    ]
+  },
+  {
+    "Name": "Samsung Galaxy Watch 5",
+    "Color": "Graphite",
+    "Price": 299,
+    "Discount": 15,
+    "Quantity": 50,
+    "Rating": 4.5,
+    "Status": "Available",
+    "CategoryId": 5,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+    ]
+  },
+  {
+    "Name": "Bose QuietComfort 45",
+    "Color": "Black",
+    "Price": 329,
+    "Discount": 10,
+    "Quantity": 40,
+    "Rating": 4.8,
+    "Status": "Available",
+    "CategoryId": 6,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+    ]
+  },
+  {
+
+    "Name": "Sony WH-1000XM5",
+    "Color": "Silver",
+    "Price": 399,
+    "Discount": 10,
+    "Quantity": 10,
+    "Rating": 4.9,
+    "Status": "Available",
+    "CategoryId": 6,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+    ]
+  },
+  {
+
+    "Name": "Canon EOS R5",
+    "Color": "Black",
+    "Price": 3899,
+    "Discount": 5,
+    "Quantity": 70,
+    "Rating": 4.9,
+    "Status": "Available",
+    "CategoryId": 7,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058541/product-1727122901319-cover_xrhzym.webp" }
+
+    ]
+  },
+  {
+
+    "Name": "Nikon Z9",
+    "Color": "Black",
+    "Price": 5499,
+    "Discount": 5,
+    "Quantity": 60,
+    "Rating": 4.9,
+    "Status": "Available",
+    "CategoryId": 7,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058509/Product-1725473916467N3_ff55xf.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058509/Product-1725473916467N3_ff55xf.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058509/Product-1725473916467N3_ff55xf.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058509/Product-1725473916467N3_ff55xf.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058509/Product-1725473916467N3_ff55xf.png" }
+
+    ]
+  },
+  {
+
+    "Name": "LG OLED C2 Series",
+    "Color": "Black",
+    "Price": 1999,
+    "Discount": 10,
+    "Quantity": 50,
+    "Rating": 4.8,
+    "Status": "Available",
+    "CategoryId": 8,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" }
+    ]
+  },
+  {
+    "Name": "Sony Bravia XR A80J",
+    "Color": "Black",
+    "Price": 2499,
+    "Discount": 10,
+    "Quantity": 50,
+    "Rating": 4.9,
+    "Status": "Available",
+    "CategoryId": 8,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058467/Product-1725471622296N1_igu4do.png" }
+
+    ]
+  },
+  {
+    "Name": "Dyson V15 Detect",
+    "Color": "Gold",
+    "Price": 699,
+    "Discount": 10,
+    "Quantity": 50,
+    "Rating": 4.8,
+    "Status": "Available",
+    "CategoryId": 9,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058498/Product-1725473705335N1_ofomyj.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058498/Product-1725473705335N1_ofomyj.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058498/Product-1725473705335N1_ofomyj.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058498/Product-1725473705335N1_ofomyj.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058498/Product-1725473705335N1_ofomyj.png" }
+
+    ]
+  },
+  {
+    "Name": "iRobot Roomba i7+",
+    "Color": "Black",
+    "Price": 799,
+    "Discount": 15,
+    "Quantity": 50,
+    "Rating": 4.7,
+    "Status": "Available",
+    "CategoryId": 9,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473705325-cover_vt5wkd.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473705325-cover_vt5wkd.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473705325-cover_vt5wkd.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473705325-cover_vt5wkd.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473705325-cover_vt5wkd.png" }
+
+
+
+    ]
+  },
+  {
+    "Name": "KitchenAid Stand Mixer",
+    "Color": "Red",
+    "Price": 399,
+    "Discount": 0,
+    "Quantity": 50,
+    "Rating": 4.8,
+    "Status": "Available",
+    "CategoryId": 2,
+    "Images": [
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473650398N2_r5u0ow.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473650398N2_r5u0ow.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473650398N2_r5u0ow.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473650398N2_r5u0ow.png" },
+      { "ImageUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739058497/Product-1725473650398N2_r5u0ow.png" }
+    ]
+  },
+  {
+    "Name": "Ninja Foodi Grill",
+    "Color": "Black",
+    "Price": 199,
+    "Discount": 10,
+    "Quantity": 20,
+    "Rating": 4.7,
+    "Status": "Available",
+    "CategoryId": 2,
+    "Images": [
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" }
+    ]
+  },
+  {
+    "Name": "GoPro HERO11 Black",
+    "Color": "Black",
+    "Price": 499,
+    "Discount": 10,
+    "Quantity": 30,
+    "Rating": 4.8,
+    "Status": "Available",
+    "CategoryId": 1,
+    "Images": [
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" },
+      { "ImageUrl": "https://collection.cloudinary.com/duvu4qqhi/811b4620dcad9276af5ed485ad440636" }
+    ]
+  }
+    ]

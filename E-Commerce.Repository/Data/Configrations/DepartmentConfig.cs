@@ -18,9 +18,9 @@ namespace E_Commerce.Repository.Data.Configrations
             builder.Property(p => p.Id).ValueGeneratedOnAdd();
             builder.Property(p => p.ArabicName).IsRequired().HasMaxLength(100);
             builder.Property(p => p.EnglishName).IsRequired().HasMaxLength(100);
-            builder.Property(p => p.PictureDiscreption).IsRequired(false).HasMaxLength(100);
-            builder.Property(p => p.PictureUrl).IsRequired(false).HasMaxLength(1000);
-            
+            builder.Property(p => p.PictureDiscreption).IsRequired(false);
+            builder.Property(p => p.PictureUrl).IsRequired(false);
+           
         }
     }
 }

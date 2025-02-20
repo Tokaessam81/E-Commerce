@@ -20,8 +20,12 @@ namespace E_Commerce.Repository.Data.Configrations
             builder.Property(p => p.Color).IsRequired(false).HasMaxLength(180);
             builder.Property(p => p.Price).IsRequired();
             builder.Property(p => p.Discount).IsRequired(false);
+            builder.Property(p => p.Rating).IsRequired(false);
             builder.Property(p => p.status).HasConversion<string>();
-            builder.HasOne(c => c.Category).WithMany().HasForeignKey(p => p.CategoryId);
+            builder.HasOne(p => p.Category)
+             .WithMany(c => c.Products)
+             .HasForeignKey(p => p.CategoryId)
+             .OnDelete(DeleteBehavior.Cascade);
 
 
 

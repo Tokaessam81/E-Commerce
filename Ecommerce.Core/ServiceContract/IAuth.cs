@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Ecommerce.Core.Entities.Identity;
+using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +10,6 @@ namespace Ecommerce.Core.ServiceContract
 {
     public interface IAuth
     {
-         string? GenerateToken();
+        Task<string> GenerateToken(AppUser user, UserManager<AppUser> userManager);
     }
 }

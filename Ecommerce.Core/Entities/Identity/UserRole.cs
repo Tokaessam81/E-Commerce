@@ -9,5 +9,11 @@ namespace Ecommerce.Core.Entities.Identity
 {
     public class UserRole:IdentityRole<int>
     {
+        public UserRole()
+        {
+        }
+        public UserRole(string roleName) : base(roleName)
+        {
+        }
     }
 }

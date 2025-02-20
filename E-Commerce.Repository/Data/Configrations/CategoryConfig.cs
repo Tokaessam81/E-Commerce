@@ -19,9 +19,11 @@ namespace E_Commerce.Repository.Data.Configrations
             builder.Property(p => p.ArabicName).IsRequired().HasMaxLength(100);
             builder.Property(p => p.EnglishName).IsRequired().HasMaxLength(100);
 
-            builder.HasOne(d => d.Department)
-                .WithMany()
-                .HasForeignKey(p => p.DepartmentId);
+            builder.HasOne(c => c.Department)
+      .WithMany(d => d.Categories)
+      .HasForeignKey(c => c.DepartmentId)
+      .OnDelete(DeleteBehavior.SetNull);
+
 
 
 
