@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>E_Commerce.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="8.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-Commerce.Repository\E-Commerce.Repository.csproj" />
+    <ProjectReference Include="..\E-Commerce.Services\E-Commerce.Services.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<Content Include="Data\DataSeeding\*.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
+
+
+</Project>

@@ -1,0 +1,36 @@
+[
+    {
+
+      "ArabicName": "الألكترونيات",
+      "EnglishName": "Electronics",
+      "PictureUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739061452/pexels-quang-nguyen-vinh-222549-2136243_o5t5pj.jpg",
+      "PictureDiscreption": "Department of Electronics and Smart Devices"
+    },
+    {
+       "ArabicName": "الأجهزة المنزلية",
+      "EnglishName": "Home Appliances",
+      "PictureUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739061465/pexels-charlotte-may-5824498_yaie6d.jpg",
+       "PictureDiscreption": "Department of household and kitchen appliances"
+    },
+    {
+  
+      "ArabicName": "الملابس",
+      "EnglishName": "Clothing",
+      "PictureUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739061463/pexels-lum3n-44775-322207_kfa3c3.jpg",
+    "PictureDiscreption": "Apparel and fashion section"
+    },
+    {
+
+      "ArabicName": "الرياضة",
+      "EnglishName": "Sports",
+      "PictureUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739061453/pexels-leonardho-1552252_wylysk.jpg",
+    "PictureDiscreption": "Sports Equipment and Fitness Section"
+    },
+    {
+     
+      "ArabicName": "الألعاب",
+      "EnglishName": "Gaming",
+      "PictureUrl": "https://res.cloudinary.com/duvu4qqhi/image/upload/v1739061457/pexels-jeshoots-com-147458-442576_kt4v9e.jpg",
+     "PictureDiscreption": "Video Games and Accessories Section"
+    }
+  ]

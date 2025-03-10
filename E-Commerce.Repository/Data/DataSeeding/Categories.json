@@ -1,0 +1,61 @@
+[
+    {
+      
+      "ArabicName": "الهواتف الذكية",
+      "EnglishName": "Smartphones",
+      "DepartmentId": 1
+    },
+    {
+    
+      "ArabicName": "أجهزة الكمبيوتر",
+      "EnglishName": "Computers",
+      "DepartmentId": 1
+    },
+    {
+   
+      "ArabicName": "الأجهزة المنزلية",
+      "EnglishName": "Home Appliances",
+      "DepartmentId": 2
+    },
+    {
+      
+      "ArabicName": "ملابس رجالية",
+      "EnglishName": "Men's Clothing",
+      "DepartmentId": 3
+    },
+    {
+  
+      "ArabicName": "ملابس نسائية",
+      "EnglishName": "Women's Clothing",
+      "DepartmentId": 3
+    },
+    {
+      "ArabicName": "الأدوات الرياضية",
+      "EnglishName": "Sports Equipment",
+      "DepartmentId": 4
+    },
+    {
+     
+      "ArabicName": "ألعاب الفيديو",
+      "EnglishName": "Video Games",
+      "DepartmentId": 5
+    },
+    {
+      
+      "ArabicName": "الإكسسوارات",
+      "EnglishName": "Accessories",
+      "DepartmentId": 5
+    },
+    {
+     
+      "ArabicName": "الأجهزة اللوحية",
+      "EnglishName": "Tablets",
+      "DepartmentId": 1
+    },
+    {
+     
+      "ArabicName": "الأجهزة القابلة للارتداء",
+      "EnglishName": "Wearable Devices",
+      "DepartmentId": 1
+    }
+  ]
